@@ -5,7 +5,7 @@
 @section('content')
     <div class="w-75 container">
         <form action="{{ route('articles.store') }}" method="post">
-            @csrf
+            {{ csrf_field() }}
             <div class="mb-3">
                 <label for="exampleFormControlInput1" class="form-label">Title</label>
                 <input name="title" type="text" class="form-control" id="exampleFormControlInput1" placeholder="Random shhhhiiiitt" zalupa>
