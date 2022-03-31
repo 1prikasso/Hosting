@@ -61,7 +61,7 @@ class UserController extends Controller
      *
      * @return \Illuminate\Http\Response
      */
-    public function registration()
+    public function registrUser $useration()
     {
         return view('registration');
     }
